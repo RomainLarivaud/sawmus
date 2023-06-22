@@ -8,9 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/WorldInteractionDemo.unity
     guid: 3d16fc5db26e2354e9ac2a5031a52e6d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: fabb451da4dbd4f7a9c05da4e73947fd
+  - enabled: 1
     path: Assets/Scenes/Sawmus.unity
     guid: 802617dc81cbc8547b1f3a7c61215b72
   m_configObjects:
