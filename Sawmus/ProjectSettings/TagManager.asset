@@ -13,6 +13,9 @@ TagManager:
   - UI
   - 
   - 
+  - Restricted
+  - Player
+  - Grabbable
   - 
   - 
   - 
@@ -34,9 +37,6 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - Teleport
   m_SortingLayers:
   - name: Default
     uniqueID: 0

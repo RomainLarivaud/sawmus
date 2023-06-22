@@ -130,15 +130,11 @@ namespace BNG {
 
         private Vector3 _initialPosition;
 
-        // Donovan et Romain
-        S_PlayerStateHandler playerStateHandler;
-
         void Start() {
             characterController = GetComponentInChildren<CharacterController>();
             playerRigid = GetComponent<Rigidbody>();
             playerCapsule = GetComponent<CapsuleCollider>();
             smoothLocomotion = GetComponentInChildren<SmoothLocomotion>();
-            playerStateHandler = GetComponent<S_PlayerStateHandler>();
 
             mainCamera = GameObject.FindGameObjectWithTag("MainCamera").transform;
 
