@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: fabb451da4dbd4f7a9c05da4e73947fd
+  - enabled: 1
+    path: Assets/Scenes/Sawmus.unity
+    guid: 802617dc81cbc8547b1f3a7c61215b72
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 95738646979e66347937d1a88ead7f33,
       type: 2}
