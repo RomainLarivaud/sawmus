@@ -286,6 +286,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fork
       objectReference: {fileID: 0}
+    - target: {fileID: 6232385737803883803, guid: aabf7dbf9c8f5f54a963b4ecbf5338ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Fork
+      objectReference: {fileID: 0}
     - target: {fileID: 6232385737803883804, guid: aabf7dbf9c8f5f54a963b4ecbf5338ae,
         type: 3}
       propertyPath: m_RootOrder
