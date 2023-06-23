@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Sawmus.unity
     guid: 802617dc81cbc8547b1f3a7c61215b72
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 95738646979e66347937d1a88ead7f33,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8109ded8d5a3fb741afb3a845a8c1ff5,
       type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
       type: 2}
