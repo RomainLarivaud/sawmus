@@ -7,15 +7,14 @@ public class SCRIPT_ENTITYSamus : MonoBehaviour
 
     Animator animator;
     GameObject bowlContainer;
-    Rigidbody body;
     public GameObject bowlPrefab;
     public HospitalDoor doorToOpen;
-    bool isChasing = false;
+    public bool isChasing = false;
+    public float moveSpeed = 6f;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        body = GetComponent<Rigidbody>();
         bowlContainer = GameObject.Find("BowlContainer");
     }
 
@@ -24,14 +23,6 @@ public class SCRIPT_ENTITYSamus : MonoBehaviour
     {
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (isChasing)
-        {
-            body.MovePosition(new Vector3(7.11000013f, 0.899999976f, -24.5300007f));
-        }
-    }
 
     public void DropBowl()
     {
@@ -46,6 +37,7 @@ public class SCRIPT_ENTITYSamus : MonoBehaviour
             isChasing = true;
             doorToOpen.Open();
             Debug.Log("chase started");
+            animator.SetBool("chase", true);
         }
     }
 }
