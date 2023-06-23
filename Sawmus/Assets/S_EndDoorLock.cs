@@ -22,10 +22,7 @@ public class S_EndDoorLock : MonoBehaviour
     {
         if (other.gameObject.tag == "Plier")
         {
-            if(sisterChain.gameObject == null)
-            {
-                doorToOpen.Open();
-            }
+            doorToOpen.Open();
             Destroy(this.gameObject);
         }
     }

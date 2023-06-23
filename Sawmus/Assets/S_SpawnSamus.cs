@@ -5,7 +5,7 @@ using UnityEngine;
 public class S_SpawnSamus : MonoBehaviour
 {
     // Start is called before the first frame update
-    public SCRIPT_ENTITYSamus samus;
+    public GameObject samus;
     bool spawned = false;
 
     private void OnTriggerEnter(Collider other)
@@ -16,7 +16,7 @@ public class S_SpawnSamus : MonoBehaviour
             {
                 Instantiate(samus, new Vector3(7.05465794f, 1.78801155f, -24.3062458f), Quaternion.identity);
                 samus.GetComponent<Animator>().enabled = false;
-                samus.bowlContainer.SetActive(false);
+             
             }
 
         }
