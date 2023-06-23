@@ -6,7 +6,7 @@ public class SCRIPT_ENTITYSamus : MonoBehaviour
 {
 
     Animator animator;
-    GameObject bowlContainer;
+    public GameObject bowlContainer;
     public GameObject bowlPrefab;
     public HospitalDoor doorToOpen;
     public bool isChasing = false;
